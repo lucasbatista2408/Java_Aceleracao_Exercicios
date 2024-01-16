@@ -13,6 +13,7 @@ public class Fibonacci {
         List<Integer> sequenciaFibonacci = new ArrayList<>();
 
         if(sequenciaFibonacci.isEmpty()){
+            sequenciaFibonacci.add(0);
             sequenciaFibonacci.add(1);
         }
     
