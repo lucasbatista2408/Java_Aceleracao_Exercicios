@@ -9,5 +9,13 @@ public class MultiplicaAi {
         scanner.close();
 
         System.out.println("Tabela de multiplicação de " + numeroDesejado);
+
+        Integer condition = 0;
+
+        while (condition <= 10) {
+            Integer resultado = numeroDesejado*condition;
+            System.out.println(numeroDesejado + " * " + condition + " = " + resultado);
+            condition++;
+        }
     }
 }
