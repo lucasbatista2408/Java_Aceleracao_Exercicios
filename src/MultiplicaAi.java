@@ -14,7 +14,9 @@ public class MultiplicaAi {
 
         while (condition <= 10) {
             Integer resultado = numeroDesejado*condition;
-            System.out.println(numeroDesejado + " * " + condition + " = " + resultado);
+            System.out.println(
+                numeroDesejado + " * " + condition + " = " + resultado
+                );
             condition++;
         }
     }
